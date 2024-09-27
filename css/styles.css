@@ -1,0 +1,150 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #295e91;
+    color: white;
+    padding: 15px;
+}
+
+.nav-welcome {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    position: relative; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-semanas {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.dropdown {
+    display: inline-block; 
+    position: relative; 
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #126186;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+.dropdown-content a {
+    color: white; 
+    padding: 10px; 
+    text-decoration: none; 
+    display: block; 
+}
+
+.dropdown-content a:hover {
+    background-color: #0d4f6c;
+}
+
+#cont {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: 2px solid #4a90e2;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.semana-content {
+    margin-top: 20px; 
+    padding: 15px;
+    background-color: #e0f7fa; 
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #295e91;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-content {
+    margin-top: 10px; 
+}
+
+.imagen-estilo {
+    max-width: 100%; 
+    height: auto; 
+    border: 2px solid #073f7e; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+}
+
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #440694;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.github-button:hover {
+    background-color: #3a3f42;
+}
